@@ -5,13 +5,13 @@
     text-decoration: none;
 }
 
-body header {
+header {
     background-color: #333;
     color: #fff;
     padding: 20px 20px;
 }
 
-body header .topbar{
+header .topbar{
     text-align: center;
     justify-content: space-between;
     display: flex;
@@ -19,10 +19,65 @@ body header .topbar{
     min-width: 300px;
 }
 
-body header .topbar .telefone {
+header .topbar .telefone {
     border-color: whitesmoke;
     border-width: 2px;
     border-style: solid;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+header .content {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;text-align: center;
+    justify-content: space-between;
+    display: flex;
+    min-width: 50px;
+    margin: 80px 10%;
+    min-width: 300px;
+}
+
+header .texto {
+    max-width: 50%;
+}
+
+header .texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header .texto p {
+    opacity: 0.8;
+}
+
+header .contato {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato button {
+    padding: 12px;
+    border: none;
+    background: #6c7ae0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
